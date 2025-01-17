@@ -1,0 +1,98 @@
+/* src/app/components/todo/todo.component.css */
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.task-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.new-task-form {
+  margin-top: 20px;
+}
+
+.new-task-form input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.new-task-form button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+}
+
+.new-task-form button:hover {
+  background-color: #0056b3;
+}
+/* src/app/components/todo/todo.component.css */
+
+input.invalid {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+/* Header Style */
+.header {
+  background-color: #4caf50; // A fresh green color
+  color: white;              // White text
+  text-align: center;        // Center align text
+  padding: 20px 0;           // Add some padding for spacing
+  border-radius: 8px;        // Rounded corners for the header
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Light shadow for depth
+
+  h1 {
+    font-family: 'Roboto', sans-serif; // Using a modern font
+    font-size: 2.5rem;                // Larger title size
+    letter-spacing: 2px;              // Slight letter spacing for a clean look
+    margin: 0;                        // Remove default margin
+  }
+}
+
+/* Add some padding for the task list */
+.task-list {
+  padding: 20px;
+}
+
+.new-task-form {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.invalid {
+  border: 2px solid #f44336; // Red border for invalid fields
+}
+
+.error {
+  color: #f44336; // Red color for error messages
+}
+
